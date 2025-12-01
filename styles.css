@@ -294,6 +294,43 @@ footer .links a {
   margin-top: 0.5rem;
 }
 
+/* --- New code for single recipe page --- */
+.single-recipe-container {
+max-width: 900px;
+margin: 40px auto;
+background: var(--card);
+padding: 30px;
+border-radius: 16px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.single-recipe-header {
+text-align: center;
+margin-bottom: 20px;
+}
+.single-recipe-header h1 { font-size: 2.4rem; }
+.single-recipe-header img {
+width: 100%;
+max-height: 400px;
+border-radius: 16px;
+object-fit: cover;
+margin-top: 20px;
+}
+.single-recipe-details {
+display: flex;
+justify-content: space-between;
+margin: 20px 0;
+color: #666;
+}
+.single-recipe-section { margin-top: 30px; }
+.single-recipe-section h2 {
+font-size: 1.6rem;
+margin-bottom: 10px;
+}
+.single-recipe-section ul {
+margin-left: 20px;
+line-height: 1.7;
+}
+.single-recipe-section p { line-height: 1.7; }
 
 @media (max-width: 480px) {
   .hero-text h1 { 
